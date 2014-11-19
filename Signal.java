@@ -7,7 +7,7 @@
 import java.util.ArrayList;
 
 /**
- * Light weight generic class to broadcast information to controllers.<br/>
+ * Light weight generic class to broadcast information to other objects.<br/>
  * When a Signal is emitted, all connected Slots are executed.<br/>
  * This way of coupling controllers to the model is looser (and easier to use)
  * than extending Observable and implementing Observer.<br/>
