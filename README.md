@@ -19,3 +19,10 @@ The repository contains the Signal.java class that contains the actual code for 
 Requirements:
 -------------
 - Java JDK 7 or higher
+
+Setup & Execution:
+------
+- git clone git@github.com:studersi/java-generic-signal.git
+- cd java-generic-signal/
+- javac BasicExample.java
+- java BasicExample
