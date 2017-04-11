@@ -39,6 +39,12 @@ public class BasicExample {
         
         // emit the Signal to call both Slots
         someSignal.emit(1,"Hello");
+
+        // disconnect one of the slots
+        someSignal.disconnect(slot1);
+
+        // emit Signal again
+        someSignal.emit(2,"Hello");
         
     }
     

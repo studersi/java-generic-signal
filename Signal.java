@@ -44,6 +44,15 @@ public class Signal<K,V> {
     public void connect(Slot<K,V> slot) {
         slots.add(slot);
     }
+
+    /**
+     * Disconnect a Slot from a signal.<br/>
+     * Remove a Slot from the ArrayList.
+     * @param slot the Slot to be removed
+     */
+    public void disconnect(Slot<K,V> slot) {
+        slots.remove(slot);
+    }
     
     /**
      * The interface for the Slot.
